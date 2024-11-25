@@ -1,4 +1,4 @@
-# BENG 183 HW4 Tutorial
+# BENG 183 HW5 Tutorial
 Special thanks to Jingtian Zhou who wrote the original version of this homework in 2020. This tutorial is written to explain methods for solving the adapted version for the 2024 course.
 
 ## Preparation
@@ -33,7 +33,7 @@ In order to begin, accessing the information in the files can be done in several
 
 ```python
 import pandas as pd
-dataset1 = pd.read_csv("Q3/dataset1.txt", sep='\t', header=None)
+dataset1 = pd.read_csv("HW5/data1.tsv", sep='\t', header=None)
 ```
 This will put the data into a pandas dataframe object, which can be accesssed as follows:
 
